@@ -1,0 +1,175 @@
+.g_head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 2.79rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 0 0.34rem;
+  overflow: hidden;
+}
+.g_head .g_nav {
+  width: 100%;
+  height: 1.2rem;
+  margin-top: 0.16rem;
+  line-height: 1.2rem;
+  font-size: 0.46rem;
+  white-space: nowrap;
+}
+.g_head .g_nav a {
+  display: inline-block;
+  height: 100%;
+  color: #808080;
+  margin-right: 0.5rem;
+  position: relative;
+}
+.g_head .g_nav :first-child {
+  font-size: 0.48rem;
+  font-weight: bold;
+  color: #ff7000;
+}
+.g_head .g_nav :first-child::after {
+  content: "";
+  width: 0.42rem;
+  height: 0.08rem;
+  background-color: #ff7000;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -0.21rem;
+}
+.g_head .g_more {
+  position: absolute;
+  top: 0.55rem;
+  right: 0;
+  width: 1.31rem;
+  height: 0.48rem;
+  background: url(../img/qq-bg.png) no-repeat;
+  background-size: 2rem 5rem;
+  text-indent: -9999px;
+}
+.g_head .g_more a {
+  display: block;
+  width: 0.43rem;
+  height: 0.43rem;
+  position: relative;
+  left: 0.43rem;
+}
+.g_head .g_search {
+  width: 100%;
+  height: 0.87rem;
+  margin-top: 0.29rem;
+  font-size: 0.32rem;
+  line-height: 0.87rem;
+}
+.g_head .g_search .gs_dog {
+  width: 6.92rem;
+  height: 100%;
+  background-color: #f6f7f9;
+  border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  color: #676566;
+  text-indent: 2.3rem;
+  margin-left: 0.02rem;
+  position: relative;
+}
+.g_head .g_search .gs_dog::before {
+  position: absolute;
+  top: 0.25rem;
+  left: 1.78rem;
+  content: "";
+  width: 0.39rem;
+  height: 0.38rem;
+  background: url(../img/qq-bg.png) no-repeat -1.31rem 0;
+  background-size: 2rem 5rem;
+}
+.g_head .g_search .gs_nav {
+  width: 3.18rem;
+  height: 100%;
+  font-size: 0;
+}
+.g_head .g_search .gs_nav a {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.87rem;
+  margin-left: 0.36rem;
+}
+.g_head .g_search .gs_nav :nth-of-type(1) {
+  background: url(../img/qq-bg2.png) no-repeat;
+  background-size: 2.82rem 0.87rem;
+}
+.g_head .g_search .gs_nav :nth-of-type(2) {
+  background: url(../img/qq-bg2.png) no-repeat -1.06rem 0;
+  background-size: 2.82rem 0.87rem;
+}
+.g_head .g_search .gs_nav :nth-of-type(3) {
+  background: url(../img/qq-bg2.png) no-repeat -2.12rem 0;
+  background-size: 2.82rem 0.87rem;
+}
+.g_foot {
+  width: 100%;
+  height: 1.5rem;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0.06rem;
+  left: 0;
+  z-index: 10;
+}
+.g_foot .gf_nav {
+  width: 100%;
+  height: 1.2rem;
+  padding-bottom: 0.06rem;
+  margin-top: 0.24rem;
+  font-size: 0.3rem;
+  line-height: 0.58rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.g_foot .gf_nav a {
+  position: relative;
+  height: 0.58rem;
+  padding-top: 0.62rem;
+  color: #ababab;
+}
+.g_foot .gf_nav a::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.33rem;
+  content: "";
+  width: 0.66rem;
+  height: 0.62rem;
+}
+.g_foot .gf_nav a:nth-child(1) {
+  color: #f19147;
+}
+.g_foot .gf_nav a:nth-child(1)::before {
+  background: url(../img/qq-bg.png) no-repeat 0 -0.51rem;
+  background-size: 2rem 5rem;
+}
+.g_foot .gf_nav a:nth-child(2)::before {
+  background: url(../img/qq-bg.png) no-repeat -0.67rem -0.51rem;
+  background-size: 2rem 5rem;
+}
+.g_foot .gf_nav a:nth-child(3)::before {
+  width: 1.6rem;
+  height: 1.3rem;
+  background: url(../img/nnhk.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: -0.16rem;
+  left: 50%;
+  margin-left: -0.8rem;
+}
+.g_foot .gf_nav a:nth-child(4)::before {
+  background: url(../img/qq-bg.png) no-repeat -1.34rem -0.51rem;
+  background-size: 2rem 5rem;
+}
+.g_foot .gf_nav a:nth-child(5)::before {
+  background: url(../img/qq-bg.png) no-repeat 0 -1.15rem;
+  background-size: 2rem 5rem;
+}

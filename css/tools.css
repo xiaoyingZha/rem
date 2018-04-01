@@ -1,0 +1,25 @@
+/*移动端工具样式*/
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	overflow: auto;	
+}
+/*浮动*/
+.tl{
+	float: left;
+}
+.tr{
+	float: right;
+}
+/*清除浮动*/
+.clearfix{
+	*zoom: 1;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}

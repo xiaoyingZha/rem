@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/tools.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<!--移动端的应用-->
+		<script>
+			//设置适口及缩放比例，目的：实现像素1:1还原
+			var ratio = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+ratio+',minimum-scale='+ratio+',maximum-scale='+ratio+',user-scalable=no" />')
+			//设置html字体大小
+			//以1080尺寸计算
+			var size = document.documentElement.clientWidth/10.8;
+			//html的font-size是108px,即1rem
+			document.getElementsByTagName('html')[0].style.fontSize = size + 'px';
+		</script>
+	</head>
+	<body>
+		<header class="g_head">
+			<nav class="g_nav tl">
+				<a href="">精选</a>
+				<a href="">那年花开</a>
+				<a href="">电视剧</a>
+				<a href="">电影</a>
+				<a href="">综艺</a>
+				<a href="">少儿</a>
+				<a href="">动漫</a>
+				<a href="">VIP会员</a>
+				<a href="">明日之子</a>
+			</nav>
+			<div class="g_more">
+				<a href="">更多</a>
+			</div>
+			<div class="g_search tl">
+				<a href="" class="gs_dog tl">汪汪队立大功合集</a>
+				<nav class="gs_nav tr">
+					<a href="">游戏</a>
+					<a href="">下载</a>
+					<a href="">观看记录</a>
+				</nav>
+			</div>
+		</header>
+		<section class="i_main">
+			<!--banner区域-->
+			<div class="im_banner">
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+				<a href="">
+					<img src="../img/banner1.png"/>
+				</a>
+			</div>
+			<!--提示-->
+			<div class="im_hint">
+				<a href="">
+					<span class="strong">你正在追的</span>脱口秀大会 单身何洁吐带娃心酸
+				</a>
+			</div>
+			<!--重磅热播-->
+			<section class="im_hot">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						重磅热播
+					</h3>
+				</header>
+				<ul class="im_list">
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image2.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">中餐厅 未播花絮</span>
+								<span class="imit_text tl">赵薇从不看这个竟因这个</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">美味奇缘·甜蜜更新</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_zz">自制</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/img1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">何所冬暖，何所夏凉</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_ff">付费</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image3.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">全职法师·回归</span>
+								<span class="imit_text tl">魔法少年变身与怪兽大战</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image4.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">加勒比海盗5·死无对证</span>
+								<span class="imit_text tl">杰克船长遭遇亡灵鬼鲨</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image5.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">宋哲被抓很开心</span>
+								<span class="imit_text tl">王宝强家人：必须离婚</span>
+							</span>
+							<span class="im_icor ico_vip">VIP</span>
+						</a>
+					</li>
+				</ul>
+				<!--切换-->
+				<div class="im_change">
+					<a href="">
+						怒送iPad!坐等《使徒2》
+					</a>
+					<a href="">
+						换一批看看
+					</a>
+				</div>
+			</section>
+			<!--新闻一览·-->
+			<section class="im_new">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						<a href="">新闻一览·金砖新十年 风起再扬帆</a>
+					</h3>
+				</header>
+				<ul class="im_list">
+					<li class="im_item">
+						<a href="">
+							<img src="../img/xin1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">女孩读私塾</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/xin2.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">抠门出名是赵丽颖</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_zz">自制</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/xin3.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">何所冬暖，何所夏凉</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_ff">付费</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/xin4.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">钓鱼被吓一跳</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/xin5.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">刚出生的婴儿</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/img1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">何所冬暖，何所夏凉</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_vip">VIP</span>
+						</a>
+					</li>
+				</ul>
+				<!--切换-->
+				<div class="im_change">
+					<a href="">
+						看不够？猛戳这
+					</a>
+					<a href="">
+						换一批看看
+					</a>
+				</div>
+			</section>
+			<!--猜你喜欢-->
+			<section class="im_like">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						<a href="">猜你喜欢 一手独家明星互动</a>
+					</h3>
+				</header>
+				<ul class="iml_list">
+					<li class="iml_item tl">
+						<a href="" class="tl">
+							<img src="../img/huangbo.png"/>
+							<span class="imli_name">黄渤</span>
+						</a>
+						<a href="" class="tl">
+							添加
+						</a>
+					</li>
+					<li class="iml_item tl">
+						<a href="" class="tl">
+							<img src="../img/liuyan.png"/>
+							<span class="imli_name">柳岩</span>
+						</a>
+						<a href="" class="tl">
+							添加
+						</a>
+					</li>
+					<li class="iml_item tl">
+						<a href="" class="tl">
+							<img src="../img/xiaoshenyang.png"/>
+							<span class="imli_name">小沈阳</span>
+						</a>
+						<a href="" class="tl">
+							添加
+						</a>
+					</li>
+					<li class="iml_item tl">
+						<a href="" class="tl">
+							<img src="../img/duhaitao.png"/>
+							<span class="imli_name">杜海涛</span>
+						</a>
+						<a href="" class="tl">
+							添加
+						</a>
+					</li>
+					<li class="iml_item tl">
+						<a href="" class="tl">
+							<img src="../img/hejie.png"/>
+							<span class="imli_name">何洁</span>
+						</a>
+						<a href="" class="tl">
+							添加
+						</a>
+					</li>
+				</ul>				
+			</section>
+			<!--广告-->
+			<aside class="im_ad">
+				<a href="">
+					<img src="../img/ad.png"/>
+					<span class="ima_text">
+						模拟当官，你会怎么审犯人？
+					</span>
+				</a>
+				<a href="">更多</a>
+			</aside>
+			<!--同步剧场-->
+			<section class="im_theater">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						<a href="">同步剧场</a>
+					</h3>
+				</header>
+				<ul class="im_list">
+					<li class="im_item">
+						<a href="">
+							<img src="../img/nanianhukai.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">那年花开月正圆[会员22点提前看]</span>
+								<span class="imit_text tl">陈晓和孙俪抢生意又被揍了</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/tong1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">大王不容易[会员提前看]</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/image1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">何所冬暖，何所夏凉</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_zz">自制</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/img1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">何所冬暖，何所夏凉</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_ff">付费</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/tong2.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">X战警：军团 火爆首播</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/tong3.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">[无心法师2] 会员提前看</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/tong4.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">醉玲珑 [火热更新]</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_vip">VIP</span>
+						</a>
+					</li>
+				</ul>
+				<!--切换-->
+				<div class="im_change">
+					<a href="">
+						更多热播剧
+					</a>
+					<a href="">
+						换一批看看
+					</a>
+				</div>
+			</section>
+			<!--热门综艺-->
+			<section class="im_variety">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						<a href="">热门综艺</a>
+					</h3>
+				</header>
+				<ul class="im_list">
+					<li class="im_item">
+						<a href="">
+							<img src="../img/jisuqianjin.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">极速前进·王丽坤郑元畅穿嫁衣狂奔</span>
+								<span class="imit_text tl">贾静雯拼吃不顾形象 张继科父子崩溃弃场</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">饭局的诱惑 第2季</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi2.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">我们来了·今晚更新</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi3.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">见字如面2：看哭</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_ff">付费</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi4.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">极限挑战·精彩花絮</span>
+								<span class="imit_text tl">蒋欣变扒蒜老妹</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi5.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">综艺大爆炸</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/zongyi6.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">亲爱的客栈·10月首播</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_vip">VIP</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!--一大波好货组团来袭-->
+			<section class="im_cluster">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						一大波组团来袭!
+					</h3>
+				</header>
+				<ul class="">
+					<li class="">
+						<a href="">
+							<img src="../img/yidabo1.png"/>
+							<span class="imc_text">
+								<span class="imct_name tl">脱口秀大会·20点播</span>
+								<span class="imct_text tl">张馨予 信爱情不信男人</span>
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="">
+							<img src="../img/yidabo2.png"/>
+							<span class="imc_text">
+								<span class="imct_name tl">明日之子·周六播出</span>
+								<span class="imct_text tl">张馨予 信爱情不信男人</span>
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="">
+							<img src="../img/yidabo1.png"/>
+							<span class="imc_text">
+								<span class="imct_name tl">脱口秀大会·20点播</span>
+								<span class="imct_text tl">张馨予 信爱情不信男人</span>
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="">
+							<img src="../img/yidabo1.png"/>
+							<span class="imc_text">
+								<span class="imct_name tl">脱口秀大会·20点播</span>
+								<span class="imct_text tl">张馨予 信爱情不信男人</span>
+							</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="">
+							<img src="../img/yidabo1.png"/>
+							<span class="imc_text">
+								<span class="imct_name tl">脱口秀大会·20点播</span>
+								<span class="imct_text tl">张馨予 信爱情不信男人</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!--广告-->
+			<aside class="im_ad">
+				<a href="">
+					<img src="../img/ad2.png"/>
+					<span class="ima_text">
+						闺蜜刚玩3天就当上皇贵妃了
+					</span>
+				</a>
+				<a href="">更多</a>
+			</aside>
+			<!--电影大片-->
+			<section class="im_film">
+				<header class="im_head">
+					<h3 class="imh_title tl">
+						<a href="">电影大片</a>
+					</h3>
+				</header>
+				<ul class="im_list">
+					<li class="im_item">
+						<a href="">
+							<img src="../img/jianwangcun.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">健忘村·免费看</span>
+								<span class="imit_text tl">一键洗脑！舒淇 张孝全开心尬舞</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy1.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">健忘村</span>
+								<span class="imit_text tl">舒淇 张孝全让你一键健忘</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy2.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">一夜惊喜</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_zz">自制</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy3.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">警察故事2013</span>
+								<span class="imit_text tl">成龙困兽斗带伤咆哮</span>
+							</span>
+							<span class="im_icor ico_ff">付费</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy4.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">猪扒大联盟</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy5.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">情圣</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+						</a>
+					</li>
+					<li class="im_item">
+						<a href="">
+							<img src="../img/dy6.png"/>
+							<span class="imi_text">
+								<span class="imit_name tl">猩球崛起·前作回顾</span>
+								<span class="imit_text tl">安桀病了席先生陪了一整宿</span>
+							</span>
+							<span class="im_icor ico_vip">VIP</span>
+						</a>
+					</li>
+				</ul>
+				<div class="im_change">
+					<a href="">
+						看不够？猛戳这
+					</a>
+					<a href="">
+						换一批看看
+					</a>
+				</div>
+			</section>
+		</section>
+		<footer class="g_foot">
+			<nav class="gf_nav ">
+				<a href="">首页</a>
+				<a href="">热点</a>
+				<a href="" alt="vip">VIP</a>
+				<a href="">doki</a>
+				<a href="">个人中心</a>
+			</nav>
+		</footer>
+	</body>
+</html>
